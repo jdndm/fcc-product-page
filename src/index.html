@@ -5,75 +5,87 @@
     <title>CodePen - Survey Form Challenge</title>
     <link rel="stylesheet" href="./style.css" />
   </head>
-  <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
   <body>
-    <header>
-        <div class="header">
-            <h1>header text</h1>
-            <p>Some extra text</p>
+    <script src="https://cdn.freecodecamp.org/testable-projects-fcc/v1/bundle.js"></script>
+    <div id="page-wrapper">
+      <header id="header">
+        <div class="logo">
+          <img
+          id="header-img"
+          src="../img/jds-logo.PNG"
+          alt="original trombones logo"
+        />
         </div>
-      
-    </header>
-    <section id="hero">
-      <h2>Join our mailing list for more information</h2>
-      <form class="hero-form">
-        <label>
-          <input
-            name="email"
-            type="email"
-            placeholder="Put your email here to get started"
-          />
-        </label>
-        <label>
-          <input name="submit" type="submit" value="Signup Now" class="btn" />
-        </label>
-      </form>
-    </section>
-    <div class="container">
-      <section id="features">
-        <p>sick diving facts</p>
-      </section>
-      <section id="video">
-        <iframe
-          height="315"
-          src="https://www.youtube.com/embed/KvZT3etZIsw"
-          frameborder="0"
-          allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
-          allowfullscreen
-        ></iframe>
-      </section>
-      <section id="pricing">
-        <div id="discover-open-water" class="product">
-          <div class="level">Discover Open Water</div>
-          <h2>$250</h2>
+        <nav id="nav-bar">
           <ol>
-            <li>Max depth 12M</li>
-            <li>Try diving for the first time</li>
-            <li>Guided dive with instructor</li>
+            <li><a class="nav-link" href="#features">Features</a></li>
+            <li><a class="nav-link" href="#video">Video</a></li>
+            <li><a class="nav-link" href="#pricing">Pricing</a></li>
           </ol>
-          <button class="btn">Join</button>
-        </div>
-        <div id="scuba-diver" class="product">
-          <div class="level">Scuba Diver</div>
-          <h2>$450</h2>
-          <ol>
-            <li>Max Depth 12M</li>
-            <li>Dive anytime with Instructor</li>
-            <li>Discount on OW Course</li>
-          </ol>
-          <button class="btn">Join</button>
-        </div>
-        <div id="open-water" class="product">
-          <div class="level">Open Water</div>
-          <h2>$600</h2>
-          <ol>
-            <li>Max Depth 18M</li>
-            <li>Dive anytime</li>
-            <li>Recognised Worldwide</li>
-          </ol>
-          <button class="btn">Join</button>
-        </div>
+        </nav>
+      </header>
+      <section id="hero">
+        <h2>Join our mailing list for more information</h2>
+        <form class="hero-form">
+          <label>
+            <input
+              name="email"
+              type="email"
+              placeholder="Put your email here to get started"
+            />
+          </label>
+          <label>
+            <input name="submit" type="submit" value="Signup Now" class="btn" />
+          </label>
+        </form>
       </section>
+      <div class="container">
+        <section id="features">
+          <p>sick diving facts</p>
+        </section>
+        <section id="video">
+          <iframe
+            id="video"
+            height="315"
+            src="https://www.youtube.com/embed/KvZT3etZIsw"
+            frameborder="0"
+            allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture"
+            allowfullscreen
+          ></iframe>
+        </section>
+        <section id="pricing">
+          <div id="discover-open-water" class="product">
+            <div class="level">Discover Open Water</div>
+            <h2>$250</h2>
+            <ol>
+              <li>Max depth 12M</li>
+              <li>Try diving for the first time</li>
+              <li>Guided dive with instructor</li>
+            </ol>
+            <button class="btn">Join</button>
+          </div>
+          <div id="scuba-diver" class="product">
+            <div class="level">Scuba Diver</div>
+            <h2>$450</h2>
+            <ol>
+              <li>Max Depth 12M</li>
+              <li>Dive anytime with Instructor</li>
+              <li>Discount on OW Course</li>
+            </ol>
+            <button class="btn">Join</button>
+          </div>
+          <div id="open-water" class="product">
+            <div class="level">Open Water</div>
+            <h2>$600</h2>
+            <ol>
+              <li>Max Depth 18M</li>
+              <li>Dive anytime</li>
+              <li>Recognised Worldwide</li>
+            </ol>
+            <button class="btn">Join</button>
+          </div>
+        </section>
+      </div>
     </div>
   </body>
 </html>
