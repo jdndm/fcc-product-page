@@ -8,6 +8,12 @@ li {
   list-style: none;
 }
 
+.container {
+  max-width: 1000px;
+  width: 100%;
+  margin: 0 auto;
+}
+
 header {
   display: flex;
   position: fixed;
@@ -81,7 +87,6 @@ nav > ol {
   margin-top: 100px;
 }
 
-
 @media (max-width: 650px) {
   #hero {
     margin-top: 175px;
@@ -98,7 +103,7 @@ nav > ol {
   justify-content: center;
   height: 125px;
   width: 20vw;
-  color: darkblue;
+  color: #eb5252;
 }
 
 @media (max-width: 550px) {
@@ -116,7 +121,7 @@ nav > ol {
   padding: 5px;
 }
 
-@media (max-width: 550px){
+@media (max-width: 550px) {
   #features .desc {
     width: 100%;
     text-align: center;
@@ -145,7 +150,7 @@ iframe {
 
 .level {
   text-transform: uppercase;
-  background: lightgrey;
+  background: #f08080;
   padding: 10px;
   width: 100%;
   text-align: center;
@@ -163,7 +168,7 @@ iframe {
   width: calc(100% / 3);
 }
 
-@media (max-width: 800px) {
+@media (max-width: 830px) {
   #pricing {
     flex-direction: column;
   }
@@ -186,7 +191,7 @@ iframe {
 
 .btn {
   width: 100%;
-  background-color: green;
+  background-color: #eb5252;
   margin: 10px;
   max-width: 150px;
   border-radius: 2px;
