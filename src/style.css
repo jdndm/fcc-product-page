@@ -87,9 +87,9 @@ nav > ol {
   margin-top: 100px;
 }
 
-@media (max-width: 650px) {
+@media (max-width: 600px) {
   #hero {
-    margin-top: 175px;
+    margin-top: 150px;
   }
 }
 
